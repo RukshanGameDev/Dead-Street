@@ -16,6 +16,8 @@ public class CheckPoint : MonoBehaviour
         {
             SaveGame();
             LevelPassPanel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Time.timeScale = 0f;
 
         }

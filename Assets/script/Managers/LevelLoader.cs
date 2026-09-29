@@ -6,15 +6,18 @@ public class LevelLoader : MonoBehaviour
     public void LoadLevel01()
     {
         SceneManager.LoadScene(2);
+        Time.timeScale = 1f;
     }
     public void LoadLevel02()
     {
         SceneManager.LoadScene(3);
+        Time.timeScale = 1f;
 
     }
     public void LoadLevel03()
     {
-
+        SceneManager.LoadScene(4);
+        Time.timeScale = 1f;
     }
     public void LoadLevel04()
     {
